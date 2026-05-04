@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/JournalService.Api/JournalService.Api.csproj" />
+    <Project Path="src/JournalService.Core/JournalService.Core.csproj" />
+    <Project Path="src/JournalService.Infrastructure/JournalService.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/JournalService.IntegrationTests/JournalService.IntegrationTests.csproj" />
+    <Project Path="tests/JournalService.UnitTests/JournalService.UnitTests.csproj" />
+  </Folder>
+</Solution>

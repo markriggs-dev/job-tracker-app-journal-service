@@ -1,3 +1,5 @@
+using Xunit;
+
 namespace JournalService.UnitTests;
 
 public class UnitTest1

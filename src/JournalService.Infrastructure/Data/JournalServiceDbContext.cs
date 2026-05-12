@@ -32,8 +32,7 @@ public class JournalServiceDbContext : DbContext
                 .HasMaxLength(64)
                 .IsRequired();
 
-            entity.Property(e => e.Notes)
-                .HasMaxLength(4000);
+            entity.Property(e => e.Notes);
 
             entity.Property(e => e.EntryDate)
                 .IsRequired();
